@@ -1,0 +1,14 @@
+C:\Users\Benji\Documents\Egyetem\Beadandók\Rendszerfejlesztés haladó módszerei\Redmine\obj\Debug\netcoreapp3.1\Redmine.csproj.AssemblyReference.cache
+C:\Users\Benji\Documents\Egyetem\Beadandók\Rendszerfejlesztés haladó módszerei\Redmine\obj\Debug\netcoreapp3.1\Redmine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Benji\Documents\Egyetem\Beadandók\Rendszerfejlesztés haladó módszerei\Redmine\obj\Debug\netcoreapp3.1\Redmine.AssemblyInfoInputs.cache
+C:\Users\Benji\Documents\Egyetem\Beadandók\Rendszerfejlesztés haladó módszerei\Redmine\obj\Debug\netcoreapp3.1\Redmine.AssemblyInfo.cs
+C:\Users\Benji\Documents\Egyetem\Beadandók\Rendszerfejlesztés haladó módszerei\Redmine\obj\Debug\netcoreapp3.1\Redmine.csproj.CoreCompileInputs.cache
+C:\Users\Benji\Documents\Egyetem\Beadandók\Rendszerfejlesztés haladó módszerei\Redmine\bin\Debug\netcoreapp3.1\Redmine.exe
+C:\Users\Benji\Documents\Egyetem\Beadandók\Rendszerfejlesztés haladó módszerei\Redmine\bin\Debug\netcoreapp3.1\Redmine.deps.json
+C:\Users\Benji\Documents\Egyetem\Beadandók\Rendszerfejlesztés haladó módszerei\Redmine\bin\Debug\netcoreapp3.1\Redmine.runtimeconfig.json
+C:\Users\Benji\Documents\Egyetem\Beadandók\Rendszerfejlesztés haladó módszerei\Redmine\bin\Debug\netcoreapp3.1\Redmine.runtimeconfig.dev.json
+C:\Users\Benji\Documents\Egyetem\Beadandók\Rendszerfejlesztés haladó módszerei\Redmine\bin\Debug\netcoreapp3.1\Redmine.dll
+C:\Users\Benji\Documents\Egyetem\Beadandók\Rendszerfejlesztés haladó módszerei\Redmine\bin\Debug\netcoreapp3.1\Redmine.pdb
+C:\Users\Benji\Documents\Egyetem\Beadandók\Rendszerfejlesztés haladó módszerei\Redmine\obj\Debug\netcoreapp3.1\Redmine.dll
+C:\Users\Benji\Documents\Egyetem\Beadandók\Rendszerfejlesztés haladó módszerei\Redmine\obj\Debug\netcoreapp3.1\Redmine.pdb
+C:\Users\Benji\Documents\Egyetem\Beadandók\Rendszerfejlesztés haladó módszerei\Redmine\obj\Debug\netcoreapp3.1\Redmine.genruntimeconfig.cache
