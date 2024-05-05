@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Imre\\source\\repos\\sysdev24\\Redmine\\Redmine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|c:\\users\\imre\\source\\repos\\sysdev24\\redmine\\redmine\\redmine\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|solutionrelative:redmine\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|c:\\users\\imre\\source\\repos\\sysdev24\\redmine\\redmine\\redmine\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|solutionrelative:redmine\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|c:\\users\\imre\\source\\repos\\sysdev24\\redmine\\redmine\\redmine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|solutionrelative:redmine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\Imre\\source\\repos\\sysdev24\\Redmine\\Redmine\\Redmine\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "Redmine\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\Imre\\source\\repos\\sysdev24\\Redmine\\Redmine\\Redmine\\Models\\Task.cs",
+              "RelativeToolTip": "Redmine\\Models\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T16:56:20.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\Imre\\source\\repos\\sysdev24\\Redmine\\Redmine\\Redmine\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "Redmine\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\Imre\\source\\repos\\sysdev24\\Redmine\\Redmine\\Redmine\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "Redmine\\Controllers\\ProjectsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T16:45:06.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Imre\\source\\repos\\sysdev24\\Redmine\\Redmine\\Redmine\\Program.cs",
+              "RelativeDocumentMoniker": "Redmine\\Program.cs",
+              "ToolTip": "C:\\Users\\Imre\\source\\repos\\sysdev24\\Redmine\\Redmine\\Redmine\\Program.cs",
+              "RelativeToolTip": "Redmine\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T16:44:21.162Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
