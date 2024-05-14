@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Benji\\Documents\\Egyetem\\Beadand\u00F3k\\Rendszerfejleszt\u00E9s halad\u00F3 m\u00F3dszerei\\Redmine\\Redmine\\",
+  "WorkspaceRootPath": "C:\\Users\\Benji\\Documents\\Egyetem\\H\u00E1zik\\Rendszerfejleszt\u00E9s\\redmine\\Redmine\\Redmine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|c:\\users\\benji\\documents\\egyetem\\beadand\u00F3k\\rendszerfejleszt\u00E9s halad\u00F3 m\u00F3dszerei\\redmine\\redmine\\redmine\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|c:\\users\\benji\\documents\\egyetem\\h\u00E1zik\\rendszerfejleszt\u00E9s\\redmine\\redmine\\redmine\\redmine\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|solutionrelative:redmine\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|c:\\users\\benji\\documents\\egyetem\\beadand\u00F3k\\rendszerfejleszt\u00E9s halad\u00F3 m\u00F3dszerei\\redmine\\redmine\\redmine\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|c:\\users\\benji\\documents\\egyetem\\h\u00E1zik\\rendszerfejleszt\u00E9s\\redmine\\redmine\\redmine\\redmine\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|solutionrelative:redmine\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|c:\\users\\benji\\documents\\egyetem\\h\u00E1zik\\rendszerfejleszt\u00E9s\\redmine\\redmine\\redmine\\redmine\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|solutionrelative:redmine\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|c:\\users\\benji\\documents\\egyetem\\beadand\u00F3k\\rendszerfejleszt\u00E9s halad\u00F3 m\u00F3dszerei\\redmine\\redmine\\redmine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|c:\\users\\benji\\documents\\egyetem\\h\u00E1zik\\rendszerfejleszt\u00E9s\\redmine\\redmine\\redmine\\redmine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|solutionrelative:redmine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -25,16 +29,25 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Benji\\Documents\\Egyetem\\H\u00E1zik\\Rendszerfejleszt\u00E9s\\redmine\\Redmine\\Redmine\\Redmine\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Redmine\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Benji\\Documents\\Egyetem\\H\u00E1zik\\Rendszerfejleszt\u00E9s\\redmine\\Redmine\\Redmine\\Redmine\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Redmine\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:17:33.116Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Users\\Benji\\Documents\\Egyetem\\Beadand\u00F3k\\Rendszerfejleszt\u00E9s halad\u00F3 m\u00F3dszerei\\Redmine\\Redmine\\Redmine\\Models\\Task.cs",
+              "DocumentMoniker": "C:\\Users\\Benji\\Documents\\Egyetem\\H\u00E1zik\\Rendszerfejleszt\u00E9s\\redmine\\Redmine\\Redmine\\Redmine\\Models\\Task.cs",
               "RelativeDocumentMoniker": "Redmine\\Models\\Task.cs",
-              "ToolTip": "C:\\Users\\Benji\\Documents\\Egyetem\\Beadand\u00F3k\\Rendszerfejleszt\u00E9s halad\u00F3 m\u00F3dszerei\\Redmine\\Redmine\\Redmine\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\Benji\\Documents\\Egyetem\\H\u00E1zik\\Rendszerfejleszt\u00E9s\\redmine\\Redmine\\Redmine\\Redmine\\Models\\Task.cs",
               "RelativeToolTip": "Redmine\\Models\\Task.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -45,22 +58,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProjectsController.cs",
-              "DocumentMoniker": "C:\\Users\\Benji\\Documents\\Egyetem\\Beadand\u00F3k\\Rendszerfejleszt\u00E9s halad\u00F3 m\u00F3dszerei\\Redmine\\Redmine\\Redmine\\Controllers\\ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\Benji\\Documents\\Egyetem\\H\u00E1zik\\Rendszerfejleszt\u00E9s\\redmine\\Redmine\\Redmine\\Redmine\\Controllers\\ProjectsController.cs",
               "RelativeDocumentMoniker": "Redmine\\Controllers\\ProjectsController.cs",
-              "ToolTip": "C:\\Users\\Benji\\Documents\\Egyetem\\Beadand\u00F3k\\Rendszerfejleszt\u00E9s halad\u00F3 m\u00F3dszerei\\Redmine\\Redmine\\Redmine\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\Benji\\Documents\\Egyetem\\H\u00E1zik\\Rendszerfejleszt\u00E9s\\redmine\\Redmine\\Redmine\\Redmine\\Controllers\\ProjectsController.cs",
               "RelativeToolTip": "Redmine\\Controllers\\ProjectsController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAsAAAA9AAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwCYAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T16:45:06.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Benji\\Documents\\Egyetem\\Beadand\u00F3k\\Rendszerfejleszt\u00E9s halad\u00F3 m\u00F3dszerei\\Redmine\\Redmine\\Redmine\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Benji\\Documents\\Egyetem\\H\u00E1zik\\Rendszerfejleszt\u00E9s\\redmine\\Redmine\\Redmine\\Redmine\\Program.cs",
               "RelativeDocumentMoniker": "Redmine\\Program.cs",
-              "ToolTip": "C:\\Users\\Benji\\Documents\\Egyetem\\Beadand\u00F3k\\Rendszerfejleszt\u00E9s halad\u00F3 m\u00F3dszerei\\Redmine\\Redmine\\Redmine\\Program.cs",
+              "ToolTip": "C:\\Users\\Benji\\Documents\\Egyetem\\H\u00E1zik\\Rendszerfejleszt\u00E9s\\redmine\\Redmine\\Redmine\\Redmine\\Program.cs",
               "RelativeToolTip": "Redmine\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

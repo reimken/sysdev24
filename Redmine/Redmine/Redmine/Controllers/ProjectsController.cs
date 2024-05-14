@@ -36,7 +36,7 @@ namespace Redmine.Controllers
             };
         }
 
-        [HttpGet("{userId}", Name = "GetTasksByUserId")]
+        [HttpGet("user/{userId}", Name = "GetTasksByUserId")]
         public IEnumerable<Task> GetTasksByUserId(int userId)
         {
             var userTasks = _tasks.FindAll(t => t.UserId == userId);

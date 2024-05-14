@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Benji\\Documents\\Egyetem\\Beadandók\\Rendszerfejlesztés haladó módszerei\\Redmine\\Redmine\\Redmine\\Redmine.csproj": {}
+    "C:\\Users\\Benji\\Documents\\Egyetem\\Házik\\Rendszerfejlesztés\\redmine\\Redmine\\Redmine\\Redmine\\Redmine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Benji\\Documents\\Egyetem\\Beadandók\\Rendszerfejlesztés haladó módszerei\\Redmine\\Redmine\\Redmine\\Redmine.csproj": {
+    "C:\\Users\\Benji\\Documents\\Egyetem\\Házik\\Rendszerfejlesztés\\redmine\\Redmine\\Redmine\\Redmine\\Redmine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Benji\\Documents\\Egyetem\\Beadandók\\Rendszerfejlesztés haladó módszerei\\Redmine\\Redmine\\Redmine\\Redmine.csproj",
+        "projectUniqueName": "C:\\Users\\Benji\\Documents\\Egyetem\\Házik\\Rendszerfejlesztés\\redmine\\Redmine\\Redmine\\Redmine\\Redmine.csproj",
         "projectName": "Redmine",
-        "projectPath": "C:\\Users\\Benji\\Documents\\Egyetem\\Beadandók\\Rendszerfejlesztés haladó módszerei\\Redmine\\Redmine\\Redmine\\Redmine.csproj",
+        "projectPath": "C:\\Users\\Benji\\Documents\\Egyetem\\Házik\\Rendszerfejlesztés\\redmine\\Redmine\\Redmine\\Redmine\\Redmine.csproj",
         "packagesPath": "C:\\Users\\Benji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Benji\\Documents\\Egyetem\\Beadandók\\Rendszerfejlesztés haladó módszerei\\Redmine\\Redmine\\Redmine\\obj\\",
+        "outputPath": "C:\\Users\\Benji\\Documents\\Egyetem\\Házik\\Rendszerfejlesztés\\redmine\\Redmine\\Redmine\\Redmine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Benji\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
