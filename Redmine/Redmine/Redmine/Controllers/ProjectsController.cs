@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.Sqlite;
+using Microsoft.EntityFrameworkCore.Storage;
 using Redmine.Models;
 using Task = Redmine.Models.Task;
 
@@ -8,7 +10,7 @@ namespace Redmine.Controllers
     [Route("[controller]")]
     public class ProjectsController : ControllerBase
     {
-   
+
         private readonly ILogger<ProjectsController> _logger;
 
         private static List<Task> _tasks = new List<Task>
@@ -28,6 +30,22 @@ namespace Redmine.Controllers
         {
             // Ide jön a kód, amely visszaadja a projekteket
             // Például az adatbázisból lekérdezve vagy egy statikus listából
+
+            // Adatbazis kapcsolat letrehozasa
+            using (SqliteConnection connection = new SqliteConnection())
+            {
+                connection.ConnectionString = "Server = localhost:5000; Database = sqliteadatbazis; Trusted_Connection = true";
+                connection.Open();
+
+                // Itt kell hasznalni a kapcsolatot
+                SqliteCommand command = new SqliteCommand("SELECT * FROM Projects", connection);
+
+                using (SqliteDataReader reader = command.ExecuteReader())
+                {
+                    Console.WriteLine(String.Format("{0}\t | {1} \t | {2}", reader[0], reader[1], reader[2]));
+                }
+            }
+
             return new List<Project>
             {
                 new Project { Id = 1, Name = "Példaprojekt", TypeId = 1, Description = "Segítség a teszteléshez", DeveloperIds = new List<int> { 1, 2 } },
@@ -39,6 +57,21 @@ namespace Redmine.Controllers
         [HttpGet("user/{userId}", Name = "GetTasksByUserId")]
         public IEnumerable<Task> GetTasksByUserId(int userId)
         {
+            // Adatbazis kapcsolat letrehozasa
+            using (SqliteConnection connection = new SqliteConnection())
+            {
+                connection.ConnectionString = "Server = localhost:5014; Database = sqliteadatbazis; Trusted_Connection = true";
+                connection.Open();
+
+                // Itt kell hasznalni a kapcsolatot
+                SqliteCommand command = new SqliteCommand("SELECT * FROM Tasks", connection);
+
+                using (SqliteDataReader reader = command.ExecuteReader())
+                {
+                    Console.WriteLine(String.Format("{0}\t | {1} \t | {2}", reader[0], reader[1], reader[2]));
+                }
+            }
+
             var userTasks = _tasks.FindAll(t => t.UserId == userId);
 
             return userTasks;
@@ -47,6 +80,21 @@ namespace Redmine.Controllers
         [HttpGet("project/{projectId}", Name = "GetTasksByProjectId")]
         public IEnumerable<Task> GetTasksByProjectId(int projectId)
         {
+            // Adatbazis kapcsolat letrehozasa
+            using (SqliteConnection connection = new SqliteConnection())
+            {
+                connection.ConnectionString = "Server = localhost:5014; Database = sqliteadatbazis; Trusted_Connection = true";
+                connection.Open();
+
+                // Itt kell hasznalni a kapcsolatot
+                SqliteCommand command = new SqliteCommand("SELECT * FROM Tasks", connection);
+
+                using (SqliteDataReader reader = command.ExecuteReader())
+                {
+                    Console.WriteLine(String.Format("{0}\t | {1} \t | {2}", reader[0], reader[1], reader[2]));
+                }
+            }
+
             // Az adott projektnek hozzárendelt feladatok visszaadása a példaobjektumokból
             var projectTasks = _tasks.FindAll(t => t.ProjectId == projectId);
 
@@ -56,6 +104,21 @@ namespace Redmine.Controllers
         [HttpPost]
         public IActionResult AddTaskToProject([FromBody] Task task)
         {
+            // Adatbazis kapcsolat letrehozasa
+            using (SqliteConnection connection = new SqliteConnection())
+            {
+                connection.ConnectionString = "Server = localhost:5014; Database = sqliteadatbazis; Trusted_Connection = true";
+                connection.Open();
+
+                // Itt kell hasznalni a kapcsolatot
+                SqliteCommand command = new SqliteCommand("SELECT * FROM Tasks", connection);
+
+                using (SqliteDataReader reader = command.ExecuteReader())
+                {
+                    Console.WriteLine(String.Format("{0}\t | {1} \t | {2}", reader[0], reader[1], reader[2]));
+                }
+            }
+
             // Ellenõrizzük, hogy a feladathoz tartozik-e projekt
             if (task.ProjectId == 0)
             {
@@ -82,6 +145,21 @@ namespace Redmine.Controllers
         [HttpGet("{id}", Name = "GetTaskById")]
         public IActionResult GetTaskById(int id)
         {
+            // Adatbazis kapcsolat letrehozasa
+            using (SqliteConnection connection = new SqliteConnection())
+            {
+                connection.ConnectionString = "Server = localhost:5014; Database = sqliteadatbazis; Trusted_Connection = true";
+                connection.Open();
+
+                // Itt kell hasznalni a kapcsolatot
+                SqliteCommand command = new SqliteCommand("SELECT * FROM Tasks", connection);
+
+                using (SqliteDataReader reader = command.ExecuteReader())
+                {
+                    Console.WriteLine(String.Format("{0}\t | {1} \t | {2}", reader[0], reader[1], reader[2]));
+                }
+            }
+
             var task = _tasks.Find(t => t.Id == id);
             if (task == null)
             {
