@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|solutionrelative:redmine\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|c:\\users\\benji\\documents\\egyetem\\csoportmunka\\sysdev24\\redmine\\redmine\\redmine\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|solutionrelative:redmine\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|c:\\users\\benji\\documents\\egyetem\\csoportmunka\\sysdev24\\redmine\\redmine\\redmine\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B5B76030-2C0A-471C-9AFA-83AD1705259C}|Redmine\\Redmine.csproj|solutionrelative:redmine\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,6 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\Benji\\Documents\\Egyetem\\Csoportmunka\\sysdev24\\Redmine\\Redmine\\Redmine\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "Redmine\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\Benji\\Documents\\Egyetem\\Csoportmunka\\sysdev24\\Redmine\\Redmine\\Redmine\\Enums\\UserRole.cs",
+              "RelativeToolTip": "Redmine\\Enums\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:35:11.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Benji\\Documents\\Egyetem\\Csoportmunka\\sysdev24\\Redmine\\Redmine\\Redmine\\appsettings.json",
               "RelativeDocumentMoniker": "Redmine\\appsettings.json",
@@ -50,12 +67,11 @@
               "RelativeToolTip": "Redmine\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-16T19:19:29.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T19:19:29.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "projekt_1.html",
               "DocumentMoniker": "C:\\Users\\Benji\\Documents\\Egyetem\\Csoportmunka\\sysdev24\\Redmine\\Redmine\\Redmine\\Cliens\\projekt_1.html",
               "RelativeDocumentMoniker": "Redmine\\Cliens\\projekt_1.html",
@@ -67,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Benji\\Documents\\Egyetem\\Csoportmunka\\sysdev24\\Redmine\\Redmine\\Redmine\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Redmine\\Data\\ApplicationDbContext.cs",
@@ -79,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Task.cs",
               "DocumentMoniker": "C:\\Users\\Benji\\Documents\\Egyetem\\Csoportmunka\\sysdev24\\Redmine\\Redmine\\Redmine\\Models\\Task.cs",
               "RelativeDocumentMoniker": "Redmine\\Models\\Task.cs",
@@ -97,14 +113,14 @@
               "RelativeDocumentMoniker": "Redmine\\Controllers\\ProjectsController.cs",
               "ToolTip": "C:\\Users\\Benji\\Documents\\Egyetem\\Csoportmunka\\sysdev24\\Redmine\\Redmine\\Redmine\\Controllers\\ProjectsController.cs",
               "RelativeToolTip": "Redmine\\Controllers\\ProjectsController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAswCwAAAAUAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowC0AAABuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T16:45:06.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Benji\\Documents\\Egyetem\\Csoportmunka\\sysdev24\\Redmine\\Redmine\\Redmine\\Program.cs",
               "RelativeDocumentMoniker": "Redmine\\Program.cs",

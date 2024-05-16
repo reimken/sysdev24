@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore.Storage;
@@ -142,6 +143,7 @@ namespace Redmine.Controllers
             return CreatedAtAction(nameof(GetTaskById), new { id = task.Id }, task);
         }
 
+        [Authorize]
         [HttpGet("{id}", Name = "GetTaskById")]
         public IActionResult GetTaskById(int id)
         {
